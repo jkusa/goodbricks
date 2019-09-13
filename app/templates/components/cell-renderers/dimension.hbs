@@ -1,0 +1,17 @@
+<div class="dimension">
+
+</div>
+
+{{#if (eq name "part")}}
+  <div style="display:flex;align-items:center;justify-content:space-between">
+    <div>
+      <img style="padding: 0 5px" src="https://www.bricklink.com/ItemImage/PL/{{value}}.png" height="20px" alt="brick">
+      {{#ember-popover side="right"  popperContainer='body'}}
+        <img style="padding: 0 5px" src="https://www.bricklink.com/ItemImage/PL/{{value}}.png" height="200px" alt="brick">
+      {{/ember-popover}}
+    </div>
+    <span>{{value}}</span>
+  </div>
+{{else}}
+  <span>{{value}}</span>
+{{/if}}
