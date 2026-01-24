@@ -55,11 +55,11 @@
     "eslint-plugin-node": "^9.0.1",
     "faker": "^4.1.0",
     "loader.js": "^4.7.0",
-    "navi-core": "0.2.0-alpha.47",
+    "navi-core": "0.2.0-beta.902",
     "navi-dashboards": "0.2.0-alpha.47",
     "navi-data": "0.2.0-alpha.47",
     "navi-directory": "0.2.0-alpha.47",
-    "navi-reports": "0.2.0-alpha.47"
+    "navi-reports": "0.2.0-beta.902"
   },
   "engines": {
     "node": "8.* || >= 10.*"
